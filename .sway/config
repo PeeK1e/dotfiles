@@ -2,6 +2,5 @@ include /etc/sway/config
 include .sway/mediakeys
 exec swaymsg "exec easyeffects --gapplication-service;exec nextcloud;exec fcitx;"
 #set $scrnsht PrintScr
-bindsym Print exec swaymsg "grim -g \"$(slurp)\" - | swappy -f -" 
+bindsym Print exec swaymsg "exec ~/.sway/screenshot.sh" 
 exec swaymsg "exec mako -c /etc/mako.conf"
-exec swaymsg "exec eval $(gnome-keyring-daemon --start); export SSH_AUTH_SOCK"

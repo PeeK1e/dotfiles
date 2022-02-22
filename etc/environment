@@ -1,0 +1,11 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+#XDG_CURRENT_DESKTOP=sway
+# as a fix for intellij ide's and java apps
+_JAVA_AWT_WM_NONREPARENTING=1
+MOZ_ENABLE_WAYLAND=1
+EDITOR=nvim
+QT_QPA_PLATFORM=wayland
